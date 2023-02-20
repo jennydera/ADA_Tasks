@@ -30,7 +30,7 @@ x = ('farmer', 'labourer', 'carpenter', 'mechanic') # method to unpack a tuple
 print(young)
 print(old)
 print(aged)
-print(adult)
+print(adult) 
 (green, blue, *black) = x
 print(black) # the asterisks at before the black will print black as the last two list, since there is no fourth name to match mechanic
 (green, *blue, black) = x
